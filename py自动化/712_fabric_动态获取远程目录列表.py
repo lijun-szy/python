@@ -22,7 +22,7 @@ from fabric import api
 api.env.user = "root"
 api.env.hosts = ["192.168.1.131", "192.168.1.132"]
 api.env.password = "centos0106"
-
+ 
 
 @api.runs_once  # 遍历主机过程中，只有第一台触发此函数
 def input_raw():
